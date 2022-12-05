@@ -81,10 +81,9 @@ body {
 
 
 /*Style for noe*/
-#noefondo{
+#noefondo {}
 
-}
-#noeimg{
+#noeimg {
     width: 8%;
     height: 8%;
     border-radius: 50%;
@@ -93,7 +92,7 @@ body {
 }
 
 
-/*Style for */
+/*Style for photo*/
 
 
 /*Style for */
@@ -122,7 +121,7 @@ body {
 
 /*Style for the footer*/
 footer {
-    display:grid;
+    display: grid;
     justify-content: center;
     align-items: center;
     height: 100%;
