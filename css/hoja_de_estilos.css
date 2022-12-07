@@ -11,6 +11,10 @@ body {
     background: rgb(123, 158, 158);
 }
 
+#text{
+    text-align: center;
+}
+
 /*Style for Navigation Bar*/
 .navbar {
     overflow: hidden;
