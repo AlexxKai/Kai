@@ -15,11 +15,20 @@ body {
     text-align: center;
 }
 
+.size{
+    height: 803px;
+}
+
+.size2{
+    height: 491px;
+}
+
 /*Style for Navigation Bar*/
 .navbar {
     overflow: hidden;
     background-color: #333;
 }
+
 /*.navbar:active{
     background-color: #73b854;
 }*/
@@ -438,52 +447,52 @@ body {
 
 /*Style for register*/
 label.radio {
-	cursor: pointer;
-  text-indent: 35px;
-  overflow: visible;
-  display: inline-block;
-  position: relative;
-  margin-bottom: 15px;
+    cursor: pointer;
+    text-indent: 35px;
+    overflow: visible;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 15px;
 }
 
 label.radio:before {
-  background: #3a57af;
-  content:'';
-  position: absolute;
-  top:2px;
-  left: 0;
-  width: 20px;
-  height: 20px;
-  border-radius: 100%;
+    background: #3a57af;
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
 }
 
 label.radio:after {
-	opacity: 0;
-	content: '';
-	position: absolute;
-	width: 0.5em;
-	height: 0.25em;
-	background: transparent;
-	top: 7.5px;
-	left: 4.5px;
-	border: 3px solid #ffffff;
-	border-top: none;
-	border-right: none;
+    opacity: 0;
+    content: '';
+    position: absolute;
+    width: 0.5em;
+    height: 0.25em;
+    background: transparent;
+    top: 7.5px;
+    left: 4.5px;
+    border: 3px solid #ffffff;
+    border-top: none;
+    border-right: none;
 
-	-webkit-transform: rotate(-45deg);
-	-moz-transform: rotate(-45deg);
-	-o-transform: rotate(-45deg);
-	-ms-transform: rotate(-45deg);
-	transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
 }
 
-input[type=radio]:checked + label:after {
-	opacity: 1;
+input[type=radio]:checked+label:after {
+    opacity: 1;
 }
 
-hr{
-  color: #a9a9a9;
-  opacity: 0.3;
+hr {
+    color: #a9a9a9;
+    opacity: 0.3;
 }
 
 /*BUTTONS*/
@@ -595,14 +604,64 @@ hr{
     transform: translateX(0) skewX(-25deg);
 }
 
-/*Style for */
+/*Style for code*/
+#code {
+    text-align: center;
+    font-size: 200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 0;
+    background: linear-gradient(to bottom, #ff0000, #ffa600, #f5ff00, #09ff00, #00b9ff, #6200ff);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+#fig1 {
+    text-align: left;
+    position: relative;
+    margin-top: -46%;
+    margin-left: 5%;
+}
+
+#fig2 {
+    text-align: right;
+    position: relative;
+    margin-top: -8%;
+    margin-right: 5%;
+}
+
+#fig3 {
+    text-align: left;
+    position: relative;
+    margin-top: -8%;
+    margin-left: 5%;
+}
+
+#fig4 {
+    text-align: right;
+    position: relative;
+    margin-top: -8%;
+    margin-right: 5%;
+}
+
+#fig5 {
+    text-align: left;
+    position: relative;
+    margin-top: -8%;
+    margin-left: 5%;
+    margin-bottom: 2%;
+}
 
 
-/*Style for */
+/*Style for questions*/
+#question{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:x-large;
+}
 
-
-/*Style for */
-
+#response{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+}
 
 /*Style for */
 
