@@ -20,6 +20,9 @@ body {
     overflow: hidden;
     background-color: #333;
 }
+/*.navbar:active{
+    background-color: #73b854;
+}*/
 
 .navbar a {
     float: left;
