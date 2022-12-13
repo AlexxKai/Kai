@@ -23,6 +23,10 @@ body {
     height: 491px;
 }
 
+.size3{
+    height: 701px;
+}
+
 /*Style for Navigation Bar*/
 .navbar {
     overflow: hidden;
